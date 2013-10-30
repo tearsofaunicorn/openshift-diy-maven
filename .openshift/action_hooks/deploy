@@ -1,2 +1,2 @@
 cd $OPENSHIFT_REPO_DIR
-sed -i 's/@OPENSHIFT_INTERNAL_IP@/'"$OPENSHIFT_INTERNAL_IP"'/g' helloworld-openshift.yml
+sed -i 's/@OPENSHIFT_INTERNAL_IP@/'"$OPENSHIFT_INTERNAL_IP"'/g' helloworld.openshift.yml

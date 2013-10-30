@@ -1,0 +1,2 @@
+cd $OPENSHIFT_REPO_DIR
+java -jar target/diy-0.0.1-SNAPSHOT.jar server helloworld.openshift.yml

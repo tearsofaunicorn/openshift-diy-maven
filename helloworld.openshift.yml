@@ -1,3 +1,5 @@
 http:
     bindHost: @OPENSHIFT_INTERNAL_IP@
     adminPort: 8080
+template: Hello, %s!
+defaultName: Stranger

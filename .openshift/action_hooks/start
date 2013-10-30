@@ -1,3 +1,3 @@
 #!/bin/bash
 cd $OPENSHIFT_REPO_DIR
-java -jar target/diy-0.0.1-SNAPSHOT.jar server helloworld.openshift.yml
+java -jar target/diy-0.0.1-SNAPSHOT.jar server helloworld.openshift.yml > ${OPENSHIFT_DIY_LOG_DIR}/helloworld.log 2>&1 & 
